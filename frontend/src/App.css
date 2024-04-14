@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+/* Add this CSS in your component's CSS or a separate CSS file */
+.table-container {
+    /* Your existing styles */
+  }
+  
+  /* Media query for screens with a maximum width of 600px (adjust as needed) */
+  @media (max-width: 600px) {
+    .table-container {
+      /* Adjust the styles for mobile screens */
+      overflow-x: auto; /* Add horizontal scroll for small screens */
+      max-width: 100%; /* Make sure the table doesn't overflow its container */
+      font-size: 14px; /* Reduce font size for better mobile readability */
+    }
+  }
+  
